@@ -1,0 +1,52 @@
+------------------------------------------------
+------------------------------------------------
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+2000
+NOTES: Testing target budget > sum all elements.
+------------------------------------------------
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 9 ms : 976724 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+------------------------------------------------
+------------------------------------------------
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+17.5
+NOTES: Testing target budget < sum all elements.
+Subset of elements has exact match as budget
+------------------------------------------------
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 3 ms : 318980 ns
+Purchased grocery prices are:
+[2.5, 15.0]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+------------------------------------------------
+------------------------------------------------
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+3
+NOTES: Testing target budget and returning closest match
+------------------------------------------------
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 578905 ns
+Purchased grocery prices are:
+[2.5]
+Done with ShoppingBag.
+
+Process finished with exit code 0

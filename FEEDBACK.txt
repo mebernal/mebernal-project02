@@ -1,0 +1,17 @@
+FEEDBACK:
+
+Excellent implementation of the parameterized findSubset() method.
+
+
+-0 Why are you creating a class field called collection?
+   private static ArrayList<Sublist> collection = new ArrayList<Sublist>();
+
+   Unless you can justify it classes such as SubsetSum and BubbleSort
+   that behave as function objects should not have a static or class field.
+   If your implementation relies on these, then these class fields should be
+   *initialized* every single time the user call the static methods.
+   
+   Otherwise, this results in *incorrect* results when *multiple* calls to
+   SubsetSum.findSubset(...) is made.
+
+-Bita.
